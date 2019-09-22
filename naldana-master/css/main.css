@@ -20,7 +20,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .src-only {
@@ -30,11 +30,15 @@ body {
 .hide-mobile {
     display: none;
     color: #0AC693;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
 }
 
 .fas{
-    font-size: 5em;
+    font-size: 2.5em;
+}
+
+.fas.a-bars{
+    font-size: 1em;
 }
 
 p{
@@ -62,8 +66,8 @@ p{
 
 }
 
-ul#menu li:last-child a{
-color: red;
+ul li a:hover{
+color: #F74442;
 }
 
 .options i:last-child {
@@ -245,7 +249,7 @@ color: red;
     font-weight: 400;
     color: white;
     font-size: 1rem;
-    width: 50%;
+    width: 35%;
     
 }
 
@@ -359,7 +363,7 @@ footer .social-links {
         flex-flow: row wrap;
         width: 100vw;
     }
-
+    /*dandole dimesiones a la parte de about para que se vea bien*/
     h2{
         width: 100%;
     }
