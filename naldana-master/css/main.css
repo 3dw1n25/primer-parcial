@@ -116,7 +116,7 @@ color: #F74442;
 .green-area {
     background-color: #0AC693; 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
@@ -193,6 +193,7 @@ color: #F74442;
     font-weight: 700;
     font-size: 1.125em;
     margin: 2em;
+    width: 100;
     
 }
 
