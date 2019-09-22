@@ -29,6 +29,12 @@ body {
 
 .hide-mobile {
     display: none;
+    color: #0AC693;
+    margin-bottom: 5em;
+}
+
+.fas{
+    font-size: 5em;
 }
 
 p{
@@ -55,6 +61,11 @@ p{
     align-items: flex-start;
 
 }
+
+ul#menu li:last-child a{
+color: red;
+}
+
 .options i:last-child {
     font-size: 1.6rem;
 }
@@ -81,22 +92,27 @@ p{
 .social-links{
     list-style: none;
     padding: 0;
-    margin-top: 3em;
+    margin-top: -2em;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 1em;
+    
 
 }
 
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 7em;
+    margin: 20px;
 }
 
 
 .green-area {
     background-color: #0AC693; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -113,6 +129,8 @@ p{
 
 .post ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .post ul li {
@@ -158,15 +176,24 @@ p{
     margin-top: 2em;
 }
 
+.about .container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+} 
+
+
 .about h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125em;
     margin: 2em;
+    
 }
 
 .bio-info img{
-   width: 200px;
+   width: 100px;
 }
 
 .bio-info p{
@@ -218,6 +245,8 @@ p{
     font-weight: 400;
     color: white;
     font-size: 1rem;
+    width: 50%;
+    
 }
 
 .black-decoration{
@@ -323,4 +352,22 @@ footer .social-links {
         margin: 0 auto;
         max-width: 1440px;
     }
+    .about .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-flow: row wrap;
+        width: 100vw;
+    }
+
+    h2{
+        width: 100%;
+    }
+    .bio-info{
+        width: 50%;
+    }
+    .contact{
+        width: 50%;
+    }
+
 }
